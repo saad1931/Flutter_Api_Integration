@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restapi/screens/photos_api.dart';
 import 'package:restapi/screens/post_api.dart';
 
 void main() {
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const PostApi(),
+      // home: const PostApi(),
+      home: const PhotosApi(),
     );
   }
 }
