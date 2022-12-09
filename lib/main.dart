@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:restapi/screens/photos_api.dart';
 import 'package:restapi/screens/post_api.dart';
+import 'package:restapi/screens/product_api.dart';
+import 'package:restapi/screens/singn_up_api.dart';
 import 'package:restapi/screens/user_api_without_mpdel.dart';
 import 'package:restapi/screens/users_api.dart';
 
@@ -21,7 +23,8 @@ class MyApp extends StatelessWidget {
       // home: const PostApi(),
       // home: const PhotosApi(),
       // home: const UsersApi(),
-       home: const UserApiWithoutModel(),
+      // home: const UserApiWithoutModel(),
+      home: const SignUpApi(),
     );
   }
 }
